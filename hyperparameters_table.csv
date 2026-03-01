@@ -1,0 +1,4 @@
+run_name,epochs,imgsz,optimizer,batch,lr0
+model1_e25_adamw_b4_lr1e-2,25,640,AdamW,4,0.01
+model2_e30_sgd_b20_lr1e-3,30,640,SGD,20,0.001
+model3_e40_auto_bauto_lr1e-4,40,640,auto,-1,0.0001

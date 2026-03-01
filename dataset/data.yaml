@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['bus', 'car', 'jeepney', 'motorcycle', 'tricycle', 'truck']
+
+roboflow:
+  workspace: hezekiahs-workspace
+  project: my-first-project-lvodo
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/hezekiahs-workspace/my-first-project-lvodo/1
